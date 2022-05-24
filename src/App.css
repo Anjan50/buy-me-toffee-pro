@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 .App {
   text-align: center;
 }
@@ -28,6 +32,49 @@
   color: #61dafb;
 }
 
+
+
+.form {
+  display: grid;
+  gap: 17px;
+  
+
+
+  
+}
+
+.form--input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 10px;
+  padding: 12px 20px;
+  width: 100%;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  margin: 30px;
+  justify-content: space-around;
+}
+
+.box2 {
+  margin: 25px;
+}
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +83,13 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
